@@ -10,7 +10,7 @@ contract Patient {
     uint8 height;
     uint8 weight;
 
-    constructor(string _name, string _bloodType, string _country, string _dateOfBirth, string _gender, string _medicalRecords, uint8 _height, uint8 _weight) {
+    constructor(string _name, string _bloodType, string _country, string _dateOfBirth, string _gender, string _medicalRecords, uint8 _height, uint8 _weight) public {
         name = _name;
         bloodType = _bloodType;
         country = _country;
